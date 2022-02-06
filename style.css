@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+#participantsNumForm {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+#participantsNum {
+  width: 80px;
+  margin: 0 5px 0;
+}
+
+#getNamesForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#participantsWrapper, #prizesWrapper, #legsWrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+
+#participant0, #prize0, #participant1, #prize1, #participant2, #prize2, #participant3, #prize3, #participant4, #prize4, #participant5, #prize5, #participant6, #prize6, #participant7, #prize7 {
+  width: 100px;
+  margin: 10px 3px;
+}
+
+#startButton, #resultButton, #backButton {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  background-color: #fff;
+  margin: 20px 0 0;
+}
+
+#startButton:hover, #resultButton:hover, #backButton:hover {
+  cursor: pointer;
+}
+
+.resultWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.result {
+  display: block;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td {
+  width: 50px;
+  height: 70px;
+  text-align: center;
+  background-image: url('https://imagenavi.jp/download/resource/preview.asp?id=31587800&size=700');
+  /* background-image: url('https://cdn.pixabay.com/photo/2014/12/22/00/09/stump-576907_960_720.png'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.empty {
+  background-color: white;
+  background-image: none;
+}
+
+.showLeg {
+  background-image: url('https://cdn.pixabay.com/photo/2017/01/31/14/13/firewood-2024457_960_720.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: white;
+  background-position: 0% 50%;
+}

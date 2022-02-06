@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>사다리타기</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div>
+    <h1 id="h1">사다리타기</h1>
+    <form id="participantsNumForm">
+      <input id="participantsNum" type="number" placeholder="참여 인원" min="2" max="7" />
+      <button id="participantsNumButton">확인</button>
+    </form>
+    <form id="getNamesForm">
+      <div id="participantsWrapper"></div>
+      <div id="legsWrapper"></div>
+      <div id="prizesWrapper"></div>
+      <button id="startButton">사다리 시작</button>
+    </form>
+    <div class="resultWrapper">
+      <button id="resultButton" style="display: none;">결과 보기</button>
+      <button id="backButton" style="display: none;">돌아가기</button>
+      <div class="result"></div>
+    </div>
+  </div>
+  <script src="./app.js"></script>
+</body>
+</html>
