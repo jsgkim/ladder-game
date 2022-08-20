@@ -39,6 +39,7 @@ h1 {
 #participant0, #prize0, #participant1, #prize1, #participant2, #prize2, #participant3, #prize3, #participant4, #prize4, #participant5, #prize5, #participant6, #prize6, #participant7, #prize7 {
   width: 100px;
   margin: 10px 3px;
+  text-align: center;
 }
 
 #startButton, #resultButton, #backButton {
